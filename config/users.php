@@ -1,11 +1,11 @@
 <?php
 
-$auchats = array('-1001848070236');
-$owner = '504392428';
+$auchats = array('-1001980420281');
+$owner = '5596215906';
 $preusers = array();
 
 if($userId == '504392428'){
-    $user = "<a href='tg://user?id=504392428'>𝘿𝙖𝙍𝙠𝙨𝙊𝙡 ✘</a>[𝗚ø𝗱]";
+    $user = "<a href='tg://user?id=5596215906'>Ⴆʅαȥҽ ✘</a>[𝗚ø𝗱]";
   $plan = 'God';
 }
 elseif(in_array($userId,$preusers)){
