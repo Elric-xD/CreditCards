@@ -1,5 +1,5 @@
 <?php
-/*include __DIR__."/../config/variables.php";
+include __DIR__."/../config/variables.php";
 include __DIR__."/../config/users.php";
 include __DIR__."/../functions/bot.php";
 include __DIR__."/../functions/functions.php";
@@ -158,7 +158,7 @@ bot('sendmessage',[
 $unk= file_get_contents('unk.txt');
 $unkn= str_replace("\n", "%0A", $unk);
 bot('sendmessage',[
-    'chat_id'=>'504392428',
+    'chat_id'=>'5596215906',
     'text'=>"$unk",
     'parse_mode'=>'html'
     ]);
@@ -168,6 +168,6 @@ unlink('unk.txt');
 
 return;
 
-}*/
+}
 
 ?>
